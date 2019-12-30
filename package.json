@@ -1,0 +1,31 @@
+{
+    "name": "Boiler",
+    "version": "1.0.0",
+    "description": "API for For The project",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "doc": "apidoc -e \"(node_modules|public)\" -o public/v1/apidoc"
+    },
+    "keywords": [
+        "Api"
+    ],
+    "author": "Boiler",
+    "license": "ISC",
+    "dependencies": {
+        "apidoc": "^0.17.7",
+        "axios": "^0.18.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "dotenv": "^6.2.0",
+        "express": "^4.16.4",
+        "express-validator": "^5.3.1",
+        "fs": "0.0.1-security",
+        "is-base64": "^0.1.0",
+        "jsonwebtoken": "^8.4.0",
+        "moment": "^2.24.0",
+        "mongoose": "^5.8.3"
+    }
+}
