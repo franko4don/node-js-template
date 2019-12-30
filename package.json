@@ -1,7 +1,7 @@
 {
-    "name": "Boiler",
+    "name": "Abokee",
     "version": "1.0.0",
-    "description": "API for For The project",
+    "description": "API for For The Abokee project",
     "main": "app.js",
     "scripts": {
         "start": "node app.js",
@@ -11,7 +11,7 @@
     "keywords": [
         "Api"
     ],
-    "author": "Boiler",
+    "author": "Abokee",
     "license": "ISC",
     "dependencies": {
         "apidoc": "^0.17.7",
